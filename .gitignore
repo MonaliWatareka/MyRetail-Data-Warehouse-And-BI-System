@@ -1,0 +1,70 @@
+# ── SQL Server ──
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.bak2
+*.trn
+
+# ── SSIS ──
+*.dtsx.user
+bin/
+obj/
+*.suo
+*.user
+*.cache
+.vs/
+packages/
+
+# ── SSAS ──
+*.asdatabase
+*.deploymenttargets
+*.deploymentoptions
+*.configsettings
+bin/
+obj/
+
+# ── Power BI ──
+*.pbix
+# Remove the line above if you WANT to track your pbix file
+
+# ── Visual Studio ──
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ── Windows ──
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Data files (sensitive / large) ──
+*.csv
+*.xlsx
+*.xls
+*.xml
+# Remove lines above if you want to track your sample data
+
+# ── Credentials / Config ──
+*.config
+ConnectionStrings.config
+appsettings.json
+secrets.json
+
+# ── Temp / OS ──
+*.tmp
+*.temp
+*.log
+~$*
